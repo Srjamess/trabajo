@@ -1,6 +1,6 @@
 body
 {
-    background-color: blanchedalmond;
+    background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #180101;
 }
@@ -38,6 +38,7 @@ header h2
     display: inline-block;
 }
 
+
 /* menu navegación */
 nav
 {
@@ -59,8 +60,8 @@ nav ul
 
 nav a:hover 
 {
-    color: brown;
-    border-bottom: 3px solid brown;
+    color: #000000;
+    border-bottom: 3px solid #000000;
 }
 
 nav a 
@@ -72,9 +73,9 @@ nav a
 #banner_image
 {
     margin-top: 15px;
-    height: 200px;
+    height: 540px;
     border-radius: 5px;
-    background: url('../Images/san_francisco.jpg') no-repeat;
+    background: url('../IMG/image.png') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #180101;
     margin-bottom: 25px;
@@ -108,3 +109,20 @@ nav a
     padding: 3px 8px 0px 8px;
     border-radius: 5px;
 }
+
+body{
+    background-color: white;
+    color:#ffff 
+  }
+
+  .img-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .g-img{
+    padding: 0 20px 20px;
+  }
