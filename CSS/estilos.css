@@ -3,12 +3,12 @@ body
     background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #180101;
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 #main_wrapper
 {
-    width: 900px;
+    width: 775px;
     margin: auto;
 }
 
@@ -93,7 +93,7 @@ nav a
     padding-left: 4px;
     background-color: rgba(24,24,24,0.8);
     color: white;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .red_button

@@ -3,7 +3,9 @@ body
     background-color: white;
     
 }
-
+.wrapper {
+    margin-left: 15px;
+}
 #main_wrapper
 {
     width: 161px;
