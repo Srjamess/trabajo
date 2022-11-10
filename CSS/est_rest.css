@@ -1,0 +1,35 @@
+body
+{
+    background-color: white;
+    color: #fff;
+}
+
+#main_wrapper
+{
+    width: 161px;
+    margin: auto;
+}
+
+h1
+{
+  color: #000000;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+body, ul, figure {
+  margin: 0;
+  padding: 0;
+
+}
+
+ul li {
+  width: 48%;
+}
+
+img {
+  width: 100%;
+}

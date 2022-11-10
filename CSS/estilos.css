@@ -110,12 +110,8 @@ nav a
     border-radius: 5px;
 }
 
-body{
-    background-color: white;
-    color:#ffff 
-  }
 
-  .img-galeria{
+  /*.img-galeria{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -127,9 +123,26 @@ body{
     padding: 0 20px 20px;
   }
 
-  h1
+  #rest h1
   {
     color: #000000;
   }
 
-  
+  #rest li {
+    list-style: none;
+    display: flex;
+  }
+
+  body, ul, figure {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #rest ul li {
+    width: 48%;
+  }
+
+  #rest img {
+    width: 100%;
+  }
