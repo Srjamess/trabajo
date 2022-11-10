@@ -75,7 +75,7 @@ nav a
 {
     margin-top: 15px;
     height: 540px;
-    border-radius: 5px;
+    border-radius: 25px;
     background: url('../IMG/image.png') no-repeat;
     position: relative;
     
@@ -86,7 +86,7 @@ nav a
 {
     position: absolute;
     bottom: 0;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 15px 15px 20px;
     height: 35px;
     width: 19.5%;
     padding-top: 15px;
