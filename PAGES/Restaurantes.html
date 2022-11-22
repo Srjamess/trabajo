@@ -11,42 +11,17 @@
       <a href="../index.html"><img src="../IMG/logo1.png" alt="Logo"></a>
       <div class="wrapper">
         <br>
-        <form action="https://lineadecodigo.com/search" method="get">
-          <label for="busqueda">¿Qué quieres buscar?</label>
+        <label for="busqueda">¿Qué quieres buscar?</label>
 
-          <input type="search" id="busqueda" name="q"/>
-          <input type="submit" value="Buscar"/>
-        </form>
+          <input type="text" id="busqueda" name="busqueda" placeholder="Buscar..." />
         <br>
-        <!-- <div class="img-galeria">
-            <figure><div class="g-img"><img src="../IMG/img/res1.png"/></div>
-              <figcaption>
-                <h3>
-                  La Magnolia
-                </h3>
-                <p>
-                    Cr 34 3 28 - 25<br> 
-                    3011234567
-
-                </p>
-              </figcaption>
-            </figure>
-          <a href="../Pages/RepoRes.html"><div class="g-img"><img src="../IMG/img/res2.png"/></div></a>
-          <a href="../Pages/RepoRes.html"><div class="g-img"><img src="../IMG/img/res3.png"/></div></a>
-          <a href="../Pages/RepoRes.html"><div class="g-img"><img src="../IMG/img/res4.png"/></div></a>
-        </div> -->
         <ul id="rest">
           <li>
             <a href="../PAGES/RepoRes.html"><figure>
               <img src="../IMG/img/res1.png" alt="Restaurante 1"/>
               <figcaption>
-                <h3>
-                  La Magnolia
-                </h3>
-                <p>
-                  Cr 34 # 28 - 25<br> 
-                  3011234567
-                </p>
+                <div class="restau" id ="container">la magnolia</div>
+                <div id ="cont"></div>
               </figcaption>
             </figure></a>
           </li>
@@ -54,13 +29,8 @@
             <a href="../PAGES/RepoRes.html"><figure>
               <img src="../IMG/img/res2.png" alt="Restaurante 2"/>
               <figcaption>
-                <h3>
-                  La Magdalena
-                </h3>
-                <p>
-                  Cr 43 # 82 - 52<br> 
-                  3021234567
-                </p>
+                <div id ="container1"></div>
+                <div id ="cont1"></div>
               </figcaption>
             </figure></a>
           </li>
@@ -68,13 +38,8 @@
             <a href="../PAGES/RepoRes.html"><figure>
               <img src="../IMG/img/res3.png" alt="Restaurante 3"/>
               <figcaption>
-                <h3>
-                  La Maria
-                </h3>
-                <p>
-                  Cr 45 # 39 - 25<br> 
-                  3031234567
-                </p>
+                <div id ="container2"></div>
+                <div id ="cont2"></div>
               </figcaption>
             </figure></a>
           </li>
@@ -82,17 +47,14 @@
             <a href="../PAGES/RepoRes.html"><figure>
               <img src="../IMG/img/res4.png" alt="Restaurante 4"/>
               <figcaption>
-                <h3>
-                  La Constansa
-                </h3>
-                <p>
-                  Cr 54 # 93 - 52<br> 
-                  3041234567
-                </p>
+                <div id ="container3"></div>
+                <div id ="cont3"></div>
               </figcaption>
             </figure></a>
           </li>
         </ul>
+        <script src="../JS/Rest.js"></script>
+        <script src="../JS/search.js"></script>
       </div>
 </body>
 </html>
