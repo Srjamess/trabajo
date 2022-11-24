@@ -1,0 +1,14 @@
+.busqueda {
+    text-transform: uppercase;
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px rgb(0,0,0);
+}
+.btn {
+    width: 70px;
+    height: 40px;
+    background: rgb(188,190,195);
+    border-radius: 10px;
+    border: solid 2px rgba(0, 0, 0)
+}

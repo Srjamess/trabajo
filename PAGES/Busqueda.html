@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/busqueda.css">
+    <title>Busqueda de restaurantes</title>
+</head>
+<body>
+    <a href="../index.html"><img src="../IMG/logo1.png" alt="Logo"></a>
+    <br>
+    <h1>¿Qué restaurante quieres buscar?</h1>
+    <input id="busqueda" class="busqueda" placeholder="Buscar..." />
+    <button id="btn" class="btn">Buscar</button>
+    <h3 id="panel_4" class="panel_4"></h3>
+    <h3 id="panel_1" class="panel_1"></h3>
+    <p id="panel_2" class="panel_2"></p>
+    <p id="panel_3" class="panel_3"></p>
+    
+    <script>
+        btn.onclick = function() {
+            var busqueda_2 = document.getElementById("busqueda").value;
+            var busqueda = busqueda_2.toUpperCase();
+            if (busqueda == 'LA MAGNOLIA') {
+                panel_1.innerHTML = "Restaurante La Magnolia";
+                panel_2.innerHTML = "Cr 34 # 28 - 25";
+                panel_3.innerHTML = "3011234567";
+                panel_4.innerHTML = "";
+            }else
+            if (busqueda == 'LA MAGDALENA') {
+                panel_1.innerHTML = "Restaurante La Magdalena";
+                panel_2.innerHTML = "Cr 43 # 82 - 52";
+                panel_3.innerHTML = "3021234567";
+                panel_4.innerHTML = "";
+            }else
+            if (busqueda == 'LA MARIA') {
+                panel_1.innerHTML = "Restaurante La Maria";
+                panel_2.innerHTML = "Cr 45 # 39 - 25";
+                panel_3.innerHTML = "3031234567";
+                panel_4.innerHTML = "";
+            }else
+            if (busqueda == 'LA CONSTANSA') {
+                panel_1.innerHTML = "Restaurante La Constansa";
+                panel_2.innerHTML = "Cr 54 # 93 - 52";
+                panel_3.innerHTML = "3041234567";
+                panel_4.innerHTML = "";
+            }else {
+                panel_1.innerHTML = "";
+                panel_2.innerHTML = "";
+                panel_3.innerHTML = "";
+                panel_4.innerHTML = "Ese restaurante no esta registrado"
+            }
+        }
+    </script>
+</body>
+</html>
