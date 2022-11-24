@@ -18,40 +18,6 @@
     <p id="panel_2" class="panel_2"></p>
     <p id="panel_3" class="panel_3"></p>
     
-    <script>
-        btn.onclick = function() {
-            var busqueda_2 = document.getElementById("busqueda").value;
-            var busqueda = busqueda_2.toUpperCase();
-            if (busqueda == 'LA MAGNOLIA') {
-                panel_1.innerHTML = "Restaurante La Magnolia";
-                panel_2.innerHTML = "Cr 34 # 28 - 25";
-                panel_3.innerHTML = "3011234567";
-                panel_4.innerHTML = "";
-            }else
-            if (busqueda == 'LA MAGDALENA') {
-                panel_1.innerHTML = "Restaurante La Magdalena";
-                panel_2.innerHTML = "Cr 43 # 82 - 52";
-                panel_3.innerHTML = "3021234567";
-                panel_4.innerHTML = "";
-            }else
-            if (busqueda == 'LA MARIA') {
-                panel_1.innerHTML = "Restaurante La Maria";
-                panel_2.innerHTML = "Cr 45 # 39 - 25";
-                panel_3.innerHTML = "3031234567";
-                panel_4.innerHTML = "";
-            }else
-            if (busqueda == 'LA CONSTANSA') {
-                panel_1.innerHTML = "Restaurante La Constansa";
-                panel_2.innerHTML = "Cr 54 # 93 - 52";
-                panel_3.innerHTML = "3041234567";
-                panel_4.innerHTML = "";
-            }else {
-                panel_1.innerHTML = "";
-                panel_2.innerHTML = "";
-                panel_3.innerHTML = "";
-                panel_4.innerHTML = "Ese restaurante no esta registrado"
-            }
-        }
-    </script>
+    <script src="../JS/search.js"></script>
 </body>
 </html>
